@@ -67,7 +67,6 @@ def parser():
             #Collect data for functions
             raw = current_file.read()
             jsonMsg = json.loads(raw)
-            print(f)
             #Collect Topic ID numbers
             tid = str(jsonMsg['ygData']['topicId'])
             #Collect Message ID numbers
